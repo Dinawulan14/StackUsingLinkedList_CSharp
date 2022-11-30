@@ -20,9 +20,17 @@ namespace StackUsingLinkedList_CSharp
     {
         Node top;
 
-        public Stacks() 
+        public Stacks()
         {
             top = null;
+        }
+
+        bool empty()
+        {
+            if (top == null)
+                return (true);
+            else
+                return (false);
         }
     }
 }
