@@ -20,7 +20,7 @@ namespace StackUsingLinkedList_CSharp
     {
         Node top;
 
-        public Stacks()
+        public Stacks() 
         {
             top = null;
         }
