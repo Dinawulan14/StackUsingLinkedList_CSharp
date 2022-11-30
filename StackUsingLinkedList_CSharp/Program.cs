@@ -66,7 +66,11 @@ namespace StackUsingLinkedList_CSharp
         }
         static void Main(string[] args)
         {
+            Stacks s = new Stacks();
+            while (true)
+            {
 
+            }
         }
     }
 } 
