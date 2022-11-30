@@ -36,7 +36,7 @@ namespace StackUsingLinkedList_CSharp
         public void push(int element)
         {
             Node fresh;
-            fresh = new Node(element, null); 
+            fresh = new Node(element, null);
 
             fresh.next = top;
             top = fresh;
@@ -45,7 +45,7 @@ namespace StackUsingLinkedList_CSharp
 
         public void pop()
         {
-            Console.WriteLine("\nThe popped element is: " + top.info); 
+            Console.WriteLine("\nThe popped element is: " + top.info);
             top = top.next; //Make top point to the next node in equence 
         }
 
@@ -86,7 +86,7 @@ namespace StackUsingLinkedList_CSharp
                         s.push(num);
                         break;
                     case '2':
-                        if (s.empty()) 
+                        if (s.empty())
                         {
                             Console.WriteLine("\nStack Empty");
                             break;
@@ -99,10 +99,10 @@ namespace StackUsingLinkedList_CSharp
                     case '4':
                         return;
                     default:
-                        Console.WriteLine("\nInvalid Choice"); 
+                        Console.WriteLine("\nInvalid Choice");
                         break;
                 }
             }
         }
     }
-} 
+}
