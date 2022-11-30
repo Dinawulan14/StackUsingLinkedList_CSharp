@@ -36,7 +36,7 @@ namespace StackUsingLinkedList_CSharp
         public void push(int element)
         {
             Node fresh;
-            fresh = new Node(element, null);
+            fresh = new Node(element, null); 
 
             fresh.next = top;
             top = fresh;
