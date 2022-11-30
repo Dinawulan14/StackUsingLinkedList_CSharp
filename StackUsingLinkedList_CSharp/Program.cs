@@ -86,7 +86,7 @@ namespace StackUsingLinkedList_CSharp
                         s.push(num);
                         break;
                     case '2':
-                        if (s.empty())
+                        if (s.empty()) 
                         {
                             Console.WriteLine("\nStack Empty");
                             break;
