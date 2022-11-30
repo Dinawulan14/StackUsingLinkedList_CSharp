@@ -59,10 +59,14 @@ namespace StackUsingLinkedList_CSharp
                 //Traverse the list from beginning till end
                 for (tmp = top; tmp != null; tmp = tmp.next)
                 {
-                    Console.WriteLine(tmp.info); 
+                    Console.WriteLine(tmp.info);
                 }
                 Console.WriteLine();
             }
+        }
+        static void Main(string[] args)
+        {
+
         }
     }
 } 
