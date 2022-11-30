@@ -76,6 +76,8 @@ namespace StackUsingLinkedList_CSharp
                 Console.WriteLine("3. Display");
                 Console.WriteLine("4. Exit");
                 Console.Write("\nEnter your choice: ");
+                string sInput = Console.ReadLine();
+                
             }
         }
     }
