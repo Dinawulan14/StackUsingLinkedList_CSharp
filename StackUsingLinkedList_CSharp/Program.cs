@@ -30,7 +30,7 @@ namespace StackUsingLinkedList_CSharp
             if (top == null)
                 return (true);
             else
-                return (false);
+                return (false); 
         }
     }
 }
